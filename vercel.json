@@ -2,13 +2,13 @@
   "version": 2,
   "functions": {
     "api/status-check.js": {
-      "runtime": "edge"
+      "runtime": "nodejs18.x"
     }
   },
   "routes": [
     {
       "src": "/api/status-check",
-      "dest": "/api/status-check.js"
+      "dest": "api/status-check.js"
     }
   ]
 }
